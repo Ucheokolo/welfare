@@ -1,0 +1,70 @@
+body {
+margin: 0;
+padding: 0;
+}
+
+header{
+	overflow: hidden;
+}
+
+h3 {
+	margin-top: 3rem;
+}
+
+blockquote {
+	padding: 2rem 5rem 0;
+	font-size: 1.2rem;
+	color: #fff;
+	margin-bottom: 0;
+}
+form {
+	color: darkblue;
+	padding: 5%;
+	background-color: #E4EAF3;
+}
+
+hr {
+	margin: 0 0 1rem;
+	padding: 0;
+	border: solid 1px;
+}
+
+footer {
+	background: url(../images/bg.jpeg) no-repeat center/cover;
+	padding: 0;
+	margin: 0;
+}
+
+.logo {
+	width: 6%;
+}
+
+.intro {
+	background: url(../images/bg.jpeg) no-repeat center/cover;
+	color: #fff;
+	height: 40vh;
+	text-align: center;
+	padding: 5rem 4rem;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+.row {
+	margin-bottom: 3%;
+}
+.ta {
+	margin-top: 3%;
+}
+
+@media (max-width:1154px) {
+  .intro {
+    height: 60vh;
+  }
+	blockquote {
+		padding: 2rem 0;
+		font-size: 1.2rem;
+	}
+	textarea{
+		width: auto;
+	}
+}
